@@ -1,4 +1,7 @@
-# Structural Preferential Attachment Simulation [![Build Status](https://travis-ci.org/spa-networks/spa.svg?branch=master)](https://travis-ci.org/spa-networks/spa)
+# Structural Preferential Attachment Simulation
+[![Build Status](https://travis-ci.org/spa-networks/spa.svg?branch=master)](https://travis-ci.org/spa-networks/spa) 
+[![DOI](https://zenodo.org/badge/18575/spa-networks/spa.svg)](https://zenodo.org/badge/latestdoi/18575/spa-networks/spa)
+
 
 ## About:
 
