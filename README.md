@@ -85,7 +85,7 @@ So, for example, there won't be an edge list file, unless the user specifies a f
 
 More information about the SPA process can be found in the following papers.
 
-### Growth at the level of communities:
+### Growth at the Level of Communities:
 
 * [Structural preferential attachment: Network organization beyond the link](http://arxiv.org/abs/1105.5980)
 * [Structural preferential attachment: Stochastic process for the growth of scale-free, modular and self-similar systems](http://arxiv.org/abs/1109.0034)
