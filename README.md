@@ -2,16 +2,16 @@
 [![Build Status](https://travis-ci.org/spa-networks/spa.svg?branch=master)](https://travis-ci.org/spa-networks/spa) 
 [![DOI](https://zenodo.org/badge/18575/spa-networks/spa.svg)](https://zenodo.org/badge/latestdoi/18575/spa-networks/spa)
 
-## Table of Content
+## Table of Contents
 
 1. [About](#about)
 2. [Quick Start](#quick-start)
   1. [Compilation](#compilation)
     1. [Using CMake](#using-cmake)
     2. [Using GCC](#using-gcc)
-3. [Execution](#execution)
-4. [Output](#output)
-5. [Papers](#papers)
+  2. [Execution](#execution)
+  3. [Output](#output)
+3. [Papers](#papers)
   1. [Growth at the Level of Communities](#growth-at-the-level-of-communities)
   2. [Growth Within Communities](#growth-within-communities)
   3. [Hierarchical Growth](#hierarchical-growth)
@@ -60,7 +60,7 @@ The explicit compilation call below should work on most *nix systems
 
 Compilations options can be manually adjusted in the [src/config.h](src/config.h.in) file.
 
-## Execution
+### Execution
 
 Multiple parameters must be set for each simulation of the SPA process.
 These parameters can be passed through a configuration file 
@@ -74,7 +74,7 @@ If `boost::program_options` is installed and properly linked to the binary, para
 
 for more information about each flags.
 
-## Output
+### Output
 
 The results of a simulation can be found in the directory from which `spa_networks` is called.
 This default behavior can be modified with the `-B / --base_path=` flag (by specifying a new absolute or relative path).
