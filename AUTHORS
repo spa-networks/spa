@@ -1,0 +1,31 @@
+Authors of SPA
+
+Jean-Gabriel Young implemented this simulation of the SPA (Structural 
+Preferential Attachment) stochastic process.
+
+The SPA process is introduced in :
+
+  "Structural preferential attachment: 
+     Network organization beyond the link"
+  L. Hébert-Dufresne, A. Allard, V. Marceau, P.-A. Noël, and L.J. Dubé
+  Phys. Rev. Lett. 107, 158702, (2011)
+  http://arxiv.org/abs/1105.5980
+
+and the community structure it creates is studied extensively in :
+
+  "Structural preferential attachment: 
+     Stochastic process for the growth of scale-free, 
+     modular and self-similar systems"
+   L. Hébert-Dufresne, A. Allard, V. Marceau, P.-A. Noël, and L.J. Dubé
+   Phys. Rev. E 85, 026108, (2012)
+   http://arxiv.org/abs/1109.0034
+
+A local extension that incorporates an explicit link creation mechanism 
+is presented in  :
+   
+  "Structural preferential attachment of community structure 
+     and its relation to Dunbar’s number"
+  J.-G. Young, L. Hébert-Dufresne, A. Allard and L.J. Dubé
+
+This C++11 simulation implements the complete version (all three 
+publications).

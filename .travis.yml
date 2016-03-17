@@ -1,0 +1,29 @@
+language: cpp
+os:
+  - linux
+  - osx
+compiler: 
+  - gcc
+  - clang
+cache:
+  apt: true
+addons:
+  apt:
+    sources:
+      - llvm-toolchain-precise
+      - ubuntu-toolchain-r-test
+      - boost-latest
+    packages:
+      - clang-3.7
+      - g++-4.7
+      - gcc-4.7
+      - libboost1.55-all-dev
+notifications:
+  email: false
+script: 
+  - cmake .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;
+  - cmake -DOPTMEM_MODE=ON -DDEBUG_MODE=OFF .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;
+  - cmake -DOPTMEM_MODE=OFF -DDEBUG_MODE=ON .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;
+  - cmake -DHPC_MODE=OFF -DDEBUG_MODE=OFF -DOPTMEM_MODE=OFF .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;
+  - cmake -DFORCE_NO_BOOST=ON .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;
+  - cmake -DFORCE_NO_STEADY_CLOCK=ON .; make; ./spa_networks -c test_conf.txt  | tee /dev/tty | wc -l;

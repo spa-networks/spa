@@ -1,0 +1,6 @@
+p = 0.5
+q = 0.5
+final_size = 5
+seed = 42
+r = 2
+degrees = ""
