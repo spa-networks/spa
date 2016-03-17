@@ -77,5 +77,10 @@ More information about the SPA process is available in the following papers.
 * [Structural preferential attachment: Network organization beyond the link](http://arxiv.org/abs/1105.5980)
 * [Structural preferential attachment: Stochastic process for the growth of scale-free, modular and self-similar systems](http://arxiv.org/abs/1109.0034)
 
-### Growth within a community
+### Growth within a community:
 
+* A preferential attachment approach to community structure and the structure of communities (In submission)
+
+### Hierarchical growth
+
+* [Complex networks as an emerging property of hierarchical preferential attachment](http://arxiv.org/abs/1312.0171)
