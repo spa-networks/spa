@@ -58,7 +58,7 @@ The explicit compilation call below should work on most *nix systems
 
     g++ -o3 -W -Wall -Wextra -pedantic -std=c++0x  spa_main.cpp modular_structure.cpp spa_network.cpp subgraph.cpp spa_algorithm.cpp interface.cpp output_functions.cpp misc_functions.cpp includes/logger.cpp -lboost_program_options -o SPA
 
-Compilations options can be manually adjusted in the [src/config.h](src/config.h.in) file.
+Compilations options can be manually adjusted in the [src/config.h](src/config.h) file.
 
 ### Execution
 
