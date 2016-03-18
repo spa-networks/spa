@@ -92,7 +92,7 @@ More information about the SPA process can be found in the following papers.
 
 ### Growth Within Communities:
 
-* A preferential attachment approach to community structure and the structure of communities (In submission)
+* [A preferential attachment approach to community structure and the structure of communities](http://arxiv.org/abs/1603.05566)
 
 ### Hierarchical Growth:
 
