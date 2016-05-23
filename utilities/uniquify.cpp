@@ -22,6 +22,7 @@ int main(int argc, char const *argv[]) {
             for (std::set<unsigned int>::iterator it = tmp.begin(); it != tmp.end(); ++it) 
                 std::cout << *it << " ";
             std::cout << std::endl;
+            tmp.clear();
         }
         file.close();
     }
